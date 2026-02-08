@@ -1,0 +1,29 @@
+{
+  "home": {
+    "role": "Full-stack Developer",
+    "description": "I develop modern web applications and Telegram bots from scratch. Focused on quality, speed, and usability.",
+    "cta": "Contact on Telegram",
+    "stackTitle": "My Tech Stack",
+    "viewPortfolio": "View Portfolio",
+    "order": "Order Project"
+  },
+  "portfolio": {
+    "title": "My Projects",
+    "order": "Place an Order",
+    "technologies": "Technologies"
+  },
+  "reviews": {
+    "title": "Client Reviews"
+  },
+  "contacts": {
+    "title": "Contacts",
+    "cta": "Contact on Telegram",
+    "email": "Email me"
+  },
+  "nav": {
+    "home": "Home",
+    "portfolio": "Projects",
+    "reviews": "Reviews",
+    "contacts": "Contacts"
+  }
+}

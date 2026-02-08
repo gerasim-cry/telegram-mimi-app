@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+@layer theme {
+  :root {
+    --color-primary: #c4d0ee; /* Periwinkle */
+    --color-primary-dark: #a0b0d0;
+    --color-background: #232429; /* Darker Slate */
+    --color-surface: #2e3039;
+  }
+}
+
+@layer utilities {
+  .pb-safe {
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+  
+  .glass {
+    @apply backdrop-blur-xl bg-[#c4d0ee]/10 border border-[#c4d0ee]/10 shadow-lg;
+  }
+  
+  .glass-card {
+    @apply backdrop-blur-md bg-[#232429]/60 border border-[#c4d0ee]/10 shadow-xl;
+  }
+
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-[#c4d0ee] to-[#a0b0d0];
+  }
+  
+  .btn-primary {
+    @apply bg-[#c4d0ee] text-[#30364a] font-bold shadow-[0_0_15px_rgba(196,208,238,0.3)] transition-all hover:bg-[#dbe4fa] hover:shadow-[0_0_25px_rgba(196,208,238,0.5)] active:scale-95;
+  }
+}
+
+body {
+  background-color: #232429;
+  @apply text-slate-100 antialiased selection:bg-[#c4d0ee]/30;
+}
